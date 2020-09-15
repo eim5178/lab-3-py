@@ -6,13 +6,13 @@
 # Breakout: 12
 
 def sum_n(n):
-  if (n<=0):
+  if (n<=1):
     return 1
   else:
     return n + sum_n(n-1)
 
 def print_n(s,n):
-  if (n<=0):
+  if (n<=1):
     print(f"{s}")
   else:
     print(f"{s}")
